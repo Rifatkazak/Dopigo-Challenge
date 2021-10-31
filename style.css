@@ -134,15 +134,19 @@ a:hover {
 .inputtek {
     width: 95%;
 }
-.submitButtons {
-    margin-top: 4.5rem;
+.adress {
+    width: 95%;
+}
+
+.submitButton {
+    height: 4.5rem;
     width: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .steprightbtn {
-    
     background-color: #563d7c;
     color: #ffffff;
     font-size: 1em;
@@ -156,7 +160,10 @@ a:hover {
     align-items: center;
     cursor: pointer;
     height: 35px;
-    width: 150px ;
+    width: 120px ;
+    margin-left: 2rem;
+    
+    
   
   }
   .stepleftbtn {
@@ -174,6 +181,8 @@ a:hover {
     cursor: pointer;
     height: 35px;
     width: 100px;
+    
+    
   
   }
   .stepleftbtn:hover {
@@ -197,4 +206,7 @@ a:hover {
     input::placeholder {
         font-size: 0.8rem;
     }
-}
+    .adress {
+        width: 92%;
+    }
+  }
