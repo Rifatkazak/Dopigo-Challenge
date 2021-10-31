@@ -90,6 +90,10 @@ body {
 .submitBtn {
     margin-top: 4.5rem;
 }
+a:hover {
+    text-decoration: none;
+    color: white;
+}
 .steponebtn {
     
   background-color: #563d7c;
@@ -137,7 +141,7 @@ body {
     justify-content: space-between;
 
 }
-.steptworightbtn {
+.steprightbtn {
     
     background-color: #563d7c;
     color: #ffffff;
@@ -155,7 +159,7 @@ body {
     width: 150px ;
   
   }
-  .steptwoleftbtn {
+  .stepleftbtn {
     
     background-color:white;
     color: #413b52;
@@ -171,6 +175,10 @@ body {
     height: 35px;
     width: 100px;
   
+  }
+  .stepleftbtn:hover {
+    text-decoration: none;
+    color:inherit;
   }
 
   @media screen and (max-width:576px) {
