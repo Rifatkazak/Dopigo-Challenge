@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    height: 95vh;
+    width:  100%;
+}
+.left-container {
+    display:flex ;
+    border-right: 1px solid rgb(209, 206, 206);
+    
+}
+.step1Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25%;
+}
+.namerow , .passwordrow {
+    margin-top: 2rem;
+}
+.step{
+    width: 200px;
+}
+
+.dot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: #563d7c;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    
+  }
+  .dot2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: rgb(167, 161, 167);
+    color: #563d7c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    
+  }
+
+.step1LeftHeader {
+    color : #413b52 ;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-align: center; 
+}
+.step1LeftText {
+    margin-top: 1rem;
+    color:#413b52;
+    width: 65%;
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
+
+/* Step1 Right Side */
+
+.steponeform {
+    color:#413b52;
+    margin-top :5rem;
+}
+
+.input {
+    width: 90%;
+}
+.submitBtn {
+    margin-top: 4.5rem;
+}
+.steponebtn {
+    
+  background-color: #563d7c;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  border:none;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 35px;
+  width: 150px;
+
+}
+@media screen and (max-width:680px) {
+    .steponeform{
+        margin-top :1rem;
+    } 
+    .namerow , .passwordrow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .mainContactLabel {
+        margin-bottom: 2rem;
+    }
+    
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
+}
+/* Step 2 */
+.inputtek {
+    width: 95%;
+}
+.submitButtons {
+    margin-top: 4.5rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.steptworightbtn {
+    
+    background-color: #563d7c;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    border:none;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+    width: 150px ;
+  
+  }
+  .steptwoleftbtn {
+    
+    background-color:white;
+    color: #413b52;
+    font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    border:1px solid #413b52 ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+  
+  }
+
+  @media screen and (max-width:576px) {
+    .businessname {
+        width: 95%;
+    } 
+    .websiterow , .inforow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .mainContactLabel {
+        margin-bottom: 2rem;
+    }
+
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+}
